@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+.desain {
+  /* Gradasi biru modern yang lebih hidup dan cerah */
+  background: linear-gradient(135deg, #0F172A, #2563EB); 
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.desain_kotak {
+  background:#EBF3FC; 
+  border-radius: 16px; 
+  padding: 24px;
+  margin: 24px;
+  box-shadow: 2px 4px 12px gray;
+}
+
+.tombol_jarak, .tombol_tengah {
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tombol_jarak:hover, .tombol_tengah:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.jarak {
+  display: flex;
+   justify-content: space-around;
+}
+
+.tengah {
+  display: flex;
+  justify-content: center;
+}
+
+
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.centang {
+  list-style: none;
+  padding: 10px;
+}
+
+.centang li::before {
+  content: "✅";
+  margin-right: 2%;
+}
+
+.buku_biru {
+  list-style: none;
+  margin-right: 2%px;
+}
+
+.buku_biru::before {
+  content: "📘" ;
+  padding: 10px;
+}
+
+.buku_hijau {
+  list-style: none;
+  margin-right: 2%;
+}
+
+.buku_hijau::before {
+  content: "📗" ;
+  padding: 10px;
+}
+
+.buku_oren {
+  list-style: none;
+  margin-right: 2%;
+}
+
+.buku_oren::before {
+  content: "📙";
+  padding: 10px;
+}
