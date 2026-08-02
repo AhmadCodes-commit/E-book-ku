@@ -6,7 +6,6 @@ body {
 }
 
 .desain {
-  /* Gradasi biru modern yang lebih hidup dan cerah */
   background: linear-gradient(135deg, #0F172A, #2563EB); 
   color: white;
   text-align: center;
@@ -16,7 +15,15 @@ body {
 .desain_kotak {
   background:#EBF3FC; 
   border-radius: 16px; 
-  padding: 24px;
+  padding: 15px;
+  margin: 24px;
+  box-shadow: 2px 4px 12px gray;
+}
+
+.desain_kotak2 {
+  background-image: url('1785398786295.png');
+  border-radius: 16px; 
+  padding: 15px;
   margin: 24px;
   box-shadow: 2px 4px 12px gray;
 }
@@ -58,10 +65,12 @@ h3 {
   line-height: 1.6;
 }
 
+
+
 img {
   display: block;
-  width: 80%;
-  max-width: 300px;
+  width: 95%;
+  max-width: 600px;
   height: auto;
   margin: 10px auto;
   border-radius: 8px;
